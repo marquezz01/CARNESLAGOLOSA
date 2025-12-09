@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galería - Carnes La Golosa</title>
+  <meta name="description" content="Momentos de parrilla, cortes al punto y detalles que abren el apetito." />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-top: 80px;">
+  <!-- ======== HEADER ======== -->
+  <header class="site-header-zenu">
+    <div class="container">
+      <div class="header-logo-zenu">
+        <a href="index.html">
+          <img src="img/golosa-logo.png" alt="Logo La Golosa" class="logo-img">
+          <span class="logo-text">La Golosa</span>
+        </a>
+      </div>
+
+      <nav class="header-nav-zenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="recetas.html">Recetas</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions-zenu">
+        <a href="#" class="btn-emprende">Emprende</a>
+        <button class="search-icon" aria-label="Buscar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+      </div>
+
+      <button class="menu-toggle-zenu" id="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======== NAVEGACIÓN ======== -->
+  <div class="offcanvas-menu" id="side-menu">
+    <nav class="offcanvas-nav">
+        <div class="offcanvas-header">Menú</div>
+        <ul class="offcanvas-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <!-- Contenedor principal -->
+  <div id="page-container">
+    <main>
+      <!-- ======== GALERÍA ======== -->
+      <section id="gallery" class="section-padding">
+        <div class="container text-center">
+          <h2 class="section-title text-center animate-on-scroll">Galería de Momentos</h2>
+          <p class="animate-on-scroll">Momentos de parrilla, cortes al punto y detalles que abren el apetito.</p>
+          <div class="gallery-mosaic">
+            <figure class="gallery-item item-large animate-on-scroll"><img src="https://images.unsplash.com/photo-1529692236671-f1f6b5f46b54?q=80&w=2070" alt="Parrilla con carne"/></figure>
+            <figure class="gallery-item animate-on-scroll delay-1"><img src="https://images.unsplash.com/photo-1615937691194-97dbd3f3dc29?q=80&w=1974" alt="Corte de carne crudo"/></figure>
+            <figure class="gallery-item animate-on-scroll delay-2"><img src="https://images.unsplash.com/photo-1594041682310-0842a131ea23?q=80&w=1974" alt="Brasas al rojo vivo"/></figure>
+            <figure class="gallery-item item-wide animate-on-scroll"><img src="https://images.unsplash.com/photo-1628539223523-588c25d7a1b3?q=80&w=2070" alt="Plato de carne servido"/></figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="main-footer-detailed">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <h4 class="footer-logo">La Golosa</h4>
+          <p>Pasión por la parrilla, compromiso con la calidad. Llevando los mejores cortes a tu mesa desde 2023.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>Calle Falsa 123, Ciudad<br>Email: <a href="mailto:info@lagolosa.com">info@lagolosa.com</a><br>Tel: +57 323 791 8080</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Carnes La Golosa. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ======== BOTONES FLOTANTES ======== -->
+  <div class="fab-container">
+    <a href="tienda.html" class="fab fab-secondary" aria-label="Ir a la Tienda">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+    </a>
+    <a href="https://wa.me/573237918080" target="_blank" class="fab fab-whatsapp" aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91s-4.45-9.91-9.91-9.91zM17.23 14.25c-.2-.11-.72-.35-1.08-.44-.36-.09-.62-.15-.88.15-.26.3-.57.72-.7.87-.13.15-.26.17-.46.06-.2-.11-1.02-.38-1.95-1.2-1.13-1-1.61-1.82-1.7-2.04-.09-.22 0-.34.1-.44.09-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.57-1.36-.78-1.86-.2-.5-.4-.43-.55-.43h-.47c-.15 0-.38.04-.57.22-.19.18-.72.7-.72 1.71 0 1.01.74 1.98.84 2.13.1.15 1.45 2.2 3.51 3.1.5.24.9.38 1.21.48.5.17.95.14 1.3.09.4-.06 1.22-.5 1.39-.98.17-.48.17-.9.11-.98-.05-.09-.19-.14-.39-.25z"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
