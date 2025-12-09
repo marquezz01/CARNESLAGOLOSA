@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nosotros (Diseño Audaz) - Carnes La Golosa</title>
+  <meta name="description" content="Conoce la historia y la pasión detrás de Carnes La Golosa. Calidad y tradición en cada corte." />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ======== HEADER ======== -->
+  <header class="main-header scrolled">
+    <div class="container">
+      <a href="index.html" class="logo">La Golosa</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======== NAVEGACIÓN ======== -->
+  <div class="offcanvas-menu" id="side-menu">
+    <nav class="offcanvas-nav">
+        <div class="offcanvas-header">Menú</div>
+        <ul class="offcanvas-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <!-- Contenedor principal -->
+  <div id="page-container">
+    <main>
+      <!-- ======== NOSOTROS (VERSIÓN AUDAZ) ======== -->
+      <section id="about-bold" class="about-layout-b" style="padding-top: 100px;">
+        <div class="about-bg-b"></div>
+        <div class="container">
+            <div class="about-content-b animate-on-scroll">
+              <h1 class="about-title-b">Nuestra Historia</h1>
+              <p>En <strong>Carnes La Golosa</strong> seleccionamos cada corte con trazabilidad y respeto por su origen. Trabajamos con productores locales que garantizan procesos responsables y una cadena de frío impecable.</p>
+              <p>Nuestra misión: ofrecer productos frescos, sabrosos y listos para la parrilla.</p>
+              <div class="cta-wrapper">
+                <a href="contacto.html" class="btn btn-primary cta-main">Contáctanos</a>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======== FOOTER ======== --> 
+    <footer class="main-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Carnes La Golosa. Todos los derechos reservados.</p>
+        <p><a href="#">Política de privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

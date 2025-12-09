@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nosotros - Carnes La Golosa</title>
+  <meta name="description" content="Conoce la historia y la pasión detrás de Carnes La Golosa. Calidad y tradición en cada corte." />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-top: 80px;">
+  <!-- ======== HEADER ======== -->
+  <header class="site-header-zenu">
+    <div class="container">
+      <div class="header-logo-zenu">
+        <a href="index.html">
+          <img src="img/golosa-logo.png" alt="Logo La Golosa" class="logo-img">
+          <span class="logo-text">La Golosa</span>
+        </a>
+      </div>
+
+      <nav class="header-nav-zenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions-zenu">
+        <button class="search-icon" aria-label="Buscar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+      </div>
+
+      <button class="menu-toggle-zenu" id="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======== NAVEGACIÓN ======== -->
+  <div class="offcanvas-menu" id="side-menu">
+    <nav class="offcanvas-nav">
+        <div class="offcanvas-header">Menú</div>
+        <ul class="offcanvas-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <!-- Contenedor principal -->
+  <div id="page-container">
+    <main>
+      <!-- ======== NOSOTROS ======== -->
+      <section id="about" class="section-padding bg-light">
+        <div class="container">
+          <div class="overlapping-layout">
+            <div class="overlapping-content animate-on-scroll">
+              <h2 class="section-title">Nuestra Historia</h2>
+              <p>En <strong>Carnes La Golosa</strong> seleccionamos cada corte con trazabilidad y respeto por su origen. Trabajamos con productores locales que garantizan procesos responsables y una cadena de frío impecable. Nos enorgullece ofrecer solo lo mejor, asegurando que cada pieza llegue a tu mesa con la frescura y el sabor que mereces.</p>
+              <p>Nuestra misión: ofrecer productos frescos, sabrosos y listos para la parrilla.</p>
+              <a href="contacto.html" class="btn btn-primary">Contáctanos</a>
+            </div>
+            <div class="overlapping-image animate-on-scroll delay-1">
+              <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1974" alt="Cocinero preparando carne en la parrilla"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== NUESTRA FILOSOFÍA (MISIÓN, VISIÓN, VALORES) ======== -->
+      <section id="philosophy" class="section-padding">
+        <div class="container">
+          <h2 class="section-title text-center animate-on-scroll">Nuestra Filosofía</h2>
+          <div class="values-grid">
+            <!-- Misión -->
+            <div class="value-item animate-on-scroll">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.531l2.755-4.959-2.755-4.959a.375.375 0 01.557-.531l5.603 3.113z" />
+                </svg>
+              </div>
+              <h3>Misión</h3>
+              <p>Ofrecer a nuestros clientes una experiencia carnívora excepcional, proporcionando cortes de carne de la más alta calidad con un servicio cercano y apasionado, garantizando frescura y sabor en cada bocado.</p>
+            </div>
+            <!-- Visión -->
+            <div class="value-item animate-on-scroll delay-1">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639l4.43-7.447A1.012 1.012 0 017.25 4h9.5a1.012 1.012 0 01.784 1.235l-4.43 7.447a1.012 1.012 0 01-.784 1.235H7.25a1.012 1.012 0 01-.784-1.235l-2.432-4.086z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6.75 6.75 0 006.75-6.75H5.25A6.75 6.75 0 0012 18.75z" />
+                </svg>
+              </div>
+              <h3>Visión</h3>
+              <p>Ser la carnicería de referencia para los amantes de la parrilla, reconocida por nuestra innovación, la excelencia de nuestros productos y por crear una comunidad unida por la pasión por el buen comer.</p>
+            </div>
+            <!-- Valores -->
+            <div class="value-item animate-on-scroll delay-2">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+              </div>
+              <h3>Valores</h3>
+              <p>Calidad, Pasión, Honestidad, Servicio al Cliente y Compromiso con lo nuestro. Estos pilares guían cada decisión que tomamos y cada corte que entregamos.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======== FOOTER ======== --> 
+    <footer class="main-footer-detailed">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <h4 class="footer-logo">La Golosa</h4>
+          <p>Pasión por la parrilla, compromiso con la calidad. Llevando los mejores cortes a tu mesa desde 2023.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>Calle Falsa 123, Ciudad<br>Email: <a href="mailto:info@lagolosa.com">info@lagolosa.com</a><br>Tel: +57 323 791 8080</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Carnes La Golosa. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ======== BOTONES FLOTANTES ======== -->
+  <div class="fab-container">
+    <a href="https://wa.me/573237918080" target="_blank" class="fab" aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.75 13.96c.25.13.4.38.46.66.09.42-.18.83-.49 1.1-.29.26-.66.49-1.08.6A2.94 2.94 0 0 1 14 16.6c-.84-.09-1.62-.36-2.33-.78a8.45 8.45 0 0 1-3.1-2.93c-.46-.82-.7-1.7-.73-2.65.03-.23.1-.46.2-.66.22-.43.54-.78.93-1.02.23-.15.48-.24.75-.26.22-.02.43.02.63.1.25.1.48.28.66.5.18.22.3.48.36.76.06.28.03.57-.09.84-.12.27-.29.5-.49.69-.18.18-.38.32-.59.43-.21.1-.42.16-.63.19-.17.02-.34.03-.5.03-.08 0-.17 0-.25-.02-.12-.03-.24-.07-.35-.13-.11-.06-.22-.13-.32-.21-.1-.08-.18-.17-.27-.26-.3-.3-.54-.65-.7-1.03-.15-.37-.24-.76-.24-1.16s.09-.79.24-1.16c.15-.37.37-.72.64-1.02.27-.3.59-.55.94-.74.35-.19.73-.3 1.12-.31.4-.02.8.06 1.17.22.37.16.7.4 1 .7.3.3.53.65.68 1.02.15.37.23.76.23 1.16 0 .2-.03.4-.08.58-.05.19-.13.37-.22.54z"></path></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // --- Common Site-wide JavaScript for this page ---
+
+    // 1. Menu Toggle Logic
+    function setupMenuToggle() {
+      const menuToggle = document.getElementById('menu-toggle');
+      const sideMenu = document.getElementById('side-menu');
+      const pageContainer = document.getElementById('page-container');
+      const body = document.body;
+
+      if (menuToggle && sideMenu && pageContainer) {
+        menuToggle.addEventListener('click', () => {
+          sideMenu.classList.toggle('is-active');
+          pageContainer.classList.toggle('menu-open');
+          body.classList.toggle('menu-open');
+        });
+
+        // Close menu if clicking outside
+        pageContainer.addEventListener('click', (e) => {
+          if (sideMenu.classList.contains('is-active') && !sideMenu.contains(e.target) && e.target !== menuToggle) {
+            sideMenu.classList.remove('is-active');
+            pageContainer.classList.remove('menu-open');
+            body.classList.remove('menu-open');
+          }
+        });
+      }
+    }
+
+    // 2. Scroll Animation Logic
+    function setupScrollAnimations() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.animate-on-scroll').forEach(element => {
+        observer.observe(element);
+      });
+    }
+
+    // Initialize all functions when the DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      setupMenuToggle();
+      setupScrollAnimations();
+    });
+  </script>
+</body>
+</html>
